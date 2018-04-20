@@ -17,9 +17,7 @@ export default class BdbService {
    * @param {string} seed
    * @returns {_Ed25519Keypair3.default}
    */
-  createKeypair = seed =>
-    this.orm.driver.Ed25519Keypair(bip39.mnemonicToSeed(seed).slice(0, 32));
-
+  createKeypair = seed => {};
   /**
    * Constructor - initializing the service with or without a BigchainDB Connection
    * @param bdbUri
@@ -29,10 +27,7 @@ export default class BdbService {
   constructor(bdbUri = null, bdbId = null, bdbKey = null) {
     // bdbId && bdbKey may be null
     if (bdbUri) {
-      this.orm = new Orm(bdbUri, {
-        app_id: bdbId,
-        app_key: bdbKey
-      });
+      this.orm = null // Create connection here
     } else {
       // Warn the user that no connection is established and actions cannot be executed without it
       console.warn(ErrorMessages.NoConnectionPassed); // eslint-disable-line
