@@ -25,7 +25,7 @@
     "enzyme-to-json": "3.3.4",
     "jest": "23.1.0",
     "js-sha3": "0.7.0",
-    "jss": "9.8.3",
+    "jss": "9.8.7",
     "jss-camel-case": "6.1.0",
     "jss-global": "3.0.0",
     "jss-vendor-prefixer": "8.0.0",
