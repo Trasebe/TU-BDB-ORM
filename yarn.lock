@@ -4029,7 +4029,12 @@ js-cookie@^2.1.2:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-2.2.0.tgz#1b2c279a6eece380a12168b92485265b35b1effb"
 
-js-sha3@0.7.0, js-sha3@^0.7.0:
+js-sha3@0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.16.0.tgz#21e5fa409e70a773c32de460703bdab66e262355"
+  integrity sha512-JRX4j6MyBd5Tj1wY5shMddApVCkIOrkQsWnX7ytlH+6CyDRB4N7+PR5jJx+HaBVNKD0iCqnbGT0i6gPwSaeb+g==
+
+js-sha3@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.7.0.tgz#0a5c57b36f79882573b2d84051f8bb85dd1bd63a"
 
